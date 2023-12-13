@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="398.0" prefWidth="780.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.demo1.NoteController">
+    <children>
+        <ListView fx:id="listViewMyNote" layoutX="14.0" layoutY="88.0" onMouseClicked="#handleMouseClickResultWord" prefHeight="286.0" prefWidth="172.0" styleClass="listViewNote" stylesheets="@style.css" />
+        <TextArea fx:id="explainArea" layoutX="198.0" layoutY="134.0" prefHeight="240.0" prefWidth="218.0" promptText="Nghĩa của từ" styleClass="textAreaNote" stylesheets="@style.css" />
+        <Pane layoutX="14.0" layoutY="14.0" prefHeight="54.0" prefWidth="463.0" styleClass="notePane" stylesheets="@style.css">
+            <children>
+                <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="14.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../image/item.png" />
+                    </image>
+                </ImageView>
+                <Label layoutX="63.0" layoutY="14.0" text="My Note" textFill="#6e2c65">
+                    <font>
+                        <Font name="System Bold" size="20.0" />
+                    </font>
+                </Label>
+            </children>
+        </Pane>
+        <Button layoutX="427.0" layoutY="88.0" mnemonicParsing="false" onAction="#handleSoundButton" prefHeight="46.0" prefWidth="58.0" styleClass="buttonStyle" stylesheets="@style.css">
+            <graphic>
+                <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../image/iconspeaker.png" />
+                    </image>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Button layoutX="427.0" layoutY="231.0" mnemonicParsing="false" onAction="#handleDeleteButton" prefHeight="46.0" prefWidth="58.0" styleClass="buttonStyle" stylesheets="@style.css" text="XÓA" textFill="#6e2c65">
+            <font>
+                <Font name="System Bold" size="15.0" />
+            </font>
+        </Button>
+      <Button layoutX="427.0" layoutY="159.0" mnemonicParsing="false" onAction="#handleClickFirstUpdateButton" prefHeight="46.0" prefWidth="58.0" styleClass="buttonStyle" stylesheets="@style.css">
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../image/icons8_edit_64px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Pane layoutX="498.0" layoutY="14.0" prefHeight="54.0" prefWidth="268.0" styleClass="notePane" stylesheets="@style.css">
+         <children>
+            <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="14.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../image/item.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="63.0" layoutY="12.0" text="Thêm Từ " textFill="#6e2c65">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label layoutX="498.0" layoutY="77.0" prefHeight="21.0" prefWidth="82.0" text="Từ vựng" textFill="#6e2c65">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="addWordField" layoutX="498.0" layoutY="99.0" prefHeight="39.0" prefWidth="268.0" promptText="Nhập từ mới...." styleClass="addBox" stylesheets="@style.css" />
+      <Label layoutX="498.0" layoutY="148.0" prefHeight="22.0" prefWidth="106.0" text="Nghĩa của từ" textFill="#6e2c65">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="addExplainArea" layoutX="498.0" layoutY="170.0" prefHeight="171.0" prefWidth="268.0" promptText="Nhập nghĩa..." />
+      <Button fx:id="addButton" layoutX="683.0" layoutY="353.0" mnemonicParsing="false" onAction="#handleAddButton" prefHeight="30.0" prefWidth="82.0" styleClass="buttonStyle" stylesheets="@style.css" text="Xác nhận" textFill="#6e2c65">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Pane fx:id="successPane" layoutX="498.0" layoutY="353.0" prefHeight="30.0" prefWidth="172.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="30.0" prefWidth="172.0" styleClass="notePane" stylesheets="@style.css" text="Thêm thành công" textFill="#6e2c65">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Button fx:id="updateButton2" layoutX="333.0" layoutY="341.0" mnemonicParsing="false" onAction="#handleClickSecondUpdateButton" prefHeight="30.0" prefWidth="82.0" styleClass="buttonStyle" stylesheets="@style.css" text="Xác nhận" textFill="#6e2c65">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="wordArea" layoutX="198.0" layoutY="88.0" prefHeight="46.0" prefWidth="218.0" promptText="Từ vựng" styleClass="textAreaNote" stylesheets="@style.css" />
+    </children>
+</AnchorPane>

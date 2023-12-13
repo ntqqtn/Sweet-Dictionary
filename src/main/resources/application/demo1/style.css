@@ -1,0 +1,83 @@
+.root{
+     -fx-background-color: linear-gradient(to top right,#EF96C5, #CCFBFF);
+     -fx-background-radius: 5;
+      -fx-border-radius: 5;
+
+}
+.menuButton{
+      -fx-background-color: transparent;
+
+}
+.definitionPane{
+     -fx-background-color: linear-gradient(to top right,#EF96C5, #CCFBFF);
+     -fx-effect: dropshadow(three-pass-box, #8c7ae6, 10, 0, 0, 0);
+
+
+}
+
+.searchBox {
+    -fx-background-color: #FAF2DD;
+    -fx-text-fill: #6e2c65;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(three-pass-box, #8c7ae6, 10, 0, 0, 0);
+    -fx-font-size: 15px;
+
+
+
+}
+/*#E21C34, #500B28*/
+/*#91A8D0, #F7CAC9*/
+.listView {
+     -fx-effect: dropshadow(three-pass-box, #EF96C5, 10, 0, 0, 0);
+     -fx-text-fill: #6e2c65;
+     -fx-font-weight: bold;
+     -fx-font-size: 15px;
+     -fx-background-color:linear-gradient(to top right,#EF96C5, #CCFBFF);
+}
+
+.dinhnghia {
+    -fx-text-fill: #6e2c65;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(three-pass-box, #8c7ae6, 10, 0, 0, 0);
+    -fx-font-size: 15px;
+
+}
+.notePane {
+    -fx-background-color: linear-gradient(to top right,#EF96C5, #CCFBFF);
+     -fx-effect: dropshadow(three-pass-box, #8c7ae6, 10, 0, 0, 0);
+}
+
+.listViewNote {
+    -fx-effect: dropshadow(three-pass-box, #EF96C5, 10, 0, 0, 0);
+    -fx-text-fill: #6e2c65;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-background-color:linear-gradient(to top right,#EF96C5, #CCFBFF);
+
+}
+
+.textAreaNote {
+    -fx-text-fill: #6e2c65;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(three-pass-box, #8c7ae6, 10, 0, 0, 0);
+    -fx-font-size: 15px;
+}
+
+.buttonStyle {
+        -fx-background-color:#FFF0F5	;
+        -fx-effect: dropshadow(three-pass-box, #8c7ae6, 10, 0, 0, 0);
+
+}
+.addBox{
+    -fx-background-color: #FAF2DD;
+        -fx-text-fill: #6e2c65;
+        -fx-font-weight: bold;
+        -fx-effect: dropshadow(three-pass-box, #8c7ae6, 10, 0, 0, 0);
+        -fx-font-size: 15px;
+}
+
+.randomWordPane {
+        -fx-background-color: #FAF2DD;
+        -fx-effect: dropshadow(three-pass-box, #8c7ae6, 10, 0, 0, 0);
+
+}

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="850.0" styleClass="root" stylesheets="@style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.demo1.MainGuiController">
+   <children>
+      <Button fx:id="search" layoutX="2.0" layoutY="114.0" mnemonicParsing="false" onAction="#switchSearch" prefHeight="45.0" prefWidth="45.0" styleClass="menuButton" stylesheets="@style.css">
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../image/searchIcon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="noteButton" layoutX="2.0" layoutY="194.0" mnemonicParsing="false" onAction="#switchHistory" prefHeight="45.0" prefWidth="45.0" styleClass="menuButton">
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../image/recent-repeat-icon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutY="288.0" mnemonicParsing="false" onAction="#switchNote" prefHeight="45.0" prefWidth="45.0" styleClass="menuButton" stylesheets="@style.css">
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" styleClass="menuButton">
+               <image>
+                  <Image url="@../../image/markIcon.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <AnchorPane fx:id="content" layoutX="56.0" layoutY="89.0" prefHeight="398.0" prefWidth="780.0" style="-fx-background-color: white;" />
+      <Pane layoutX="1.0" layoutY="5.0" prefHeight="83.0" prefWidth="850.0">
+         <children>
+            <Label fx:id="labelTime" layoutX="246.0" layoutY="23.0" prefHeight="37.0" prefWidth="340.0">
+               <font>
+                  <Font name="System Bold Italic" size="15.0" />
+               </font></Label>
+            <ImageView fitHeight="61.0" fitWidth="79.0" layoutX="48.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../image/dictionary.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="20.0" layoutY="53.0" prefHeight="32.0" prefWidth="145.0" styleClass="paneStyle" stylesheets="@style.css" text="Sweet Dictionary" textFill="#5a1f66">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Button layoutX="2.0" layoutY="370.0" mnemonicParsing="false" onAction="#switchGame" prefHeight="35.0" prefWidth="35.0" styleClass="menuButton">
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../image/game.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>
