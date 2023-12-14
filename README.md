@@ -23,6 +23,8 @@ Chào mừng bạn đến với ứng dụng Sweeet Dictionary - ứng dụng tr
 5. CSS
 6. Maven Framework
 7. ...
+## Cây kế thừa
+![](src/main/resources/image/uml_dict.png)
 ## Demo
 ## Cải tiến
   - Trong tương lai chúng em sẽ phát triển thêm một số game trong ứng dụng để người dùng dễ dàng ôn tập và nhớ từ lâu hơn.
