@@ -26,6 +26,8 @@ Chào mừng bạn đến với ứng dụng Sweeet Dictionary - ứng dụng tr
 ## Cây kế thừa
 ![](src/main/resources/image/uml_dict.png)
 ## Demo
+![image](https://github.com/ntqqtn/Sweet-Dictionary/assets/125810931/883e73d9-b7a3-4bb6-af43-76b4f9c9d2cb)
+
 ## Cải tiến
   - Trong tương lai chúng em sẽ phát triển thêm một số game trong ứng dụng để người dùng dễ dàng ôn tập và nhớ từ lâu hơn.
   - Mục gợi ý - với mục tiêu định hướng người dùng:
