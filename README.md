@@ -1,4 +1,7 @@
 # Sweet-Dictionary
+## Contributers
+1. [Lê Thị Hà Phương - 22026563 - K67J](https://github.com/chip1911)
+2. [Nguyễn Thúy Quỳnh - 22026559 - K67J](https://github.com/ntqqtn)
 ## Giới thiệu
 Chào mừng bạn đến với ứng dụng Sweeet Dictionary - ứng dụng tra từ Anh - Việt được thiết kế để hỗ trợ người dùng trong hành trình nắm bắt kiến thức tiếng Anh. Trong một xã hội đang phát triển nhanh chóng, việc thành thạo tiếng Anh không chỉ là một kỹ năng cơ bản mà còn là chìa khóa mở cửa cho việc giao tiếp hiệu quả, trao đổi thông tin và tích lũy kiến thức. Vì thế ứng dụng Sweet Dictionary của chúng mình được xây dựng với sự tập trung vào người dùng để làm cho quá trình học tập trở nên thú vị và hiệu quả.
 ## Đặc điểm
@@ -26,12 +29,11 @@ Chào mừng bạn đến với ứng dụng Sweeet Dictionary - ứng dụng tr
   - Mục gợi ý - với mục tiêu định hướng người dùng:
      * Đối với những người mới bắt đầu học Tiếng Anh:
        + Gợi ý một số phương pháp học Tiếng Anh hiểu quả
-       + Các trang web, khóa học như Prep,...
        + Kênh Youtube, Tiktok giúp vừa học, vừa giải trí như: Khánh Vy Official, Khiêm Slay, ...
      * Đối với những người đã nắm rõ kiến thức cơ bản:
        + Các trang web, khóa học ôn luyện để thi các chứng chỉ: IELTS, TOEIC như Prep,...
      * Tra cứu từ đa chiều: Việt - Anh, hoặc tích hợp các ngôn ngữ khác: tiếng Nhật, tiếng Hàn, ...
 ## Lời kết
- - Sau thời gian học tập, tìm hiểu, cùng với sự hướng dẫn của thầy chúng em đã hoàn thành ứng dụng tra cứu từ Sweet Dictionary. Qua ứng dụng này chúng em muốn mang tiếng Anh đến gần với người dùng hơn. Hy vọng ứng dụng này sẽ có ích cho mọi người. Sau môn học, chúng em đã hiểu cách thiết kế và làm nên 1 ứng dụng cơ bản.
+ - Sau thời gian học tập, tìm hiểu, cùng với sự hướng dẫn của thầy chúng em đã hoàn thành ứng dụng tra cứu từ Sweet Dictionary. Qua ứng dụng này chúng em muốn mang tiếng Anh đến gần với người dùng hơn. Hy vọng ứng dụng này sẽ có ích cho mọi người. Sau môn học, chúng em đã hiểu cách thiết kế và xây dựng 1 ứng dụng cơ bản.
  - Sweet Dictionary còn nhiều thiếu sót và lỗi, chúng mình rất mong nhận được những đánh giá của mọi người.
  - Thank you so much.
